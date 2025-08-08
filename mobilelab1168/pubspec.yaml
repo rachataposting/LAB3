@@ -1,0 +1,26 @@
+name: mobilelab1cet168
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# ส่วนที่สำคัญที่สุดอยู่ตรงนี้
+flutter:
+  uses-material-design: true
+
+  # การประกาศ assets ต้องเว้นวรรคให้ถูกต้อง
+  # 'assets:' ต้องอยู่ระดับเดียวกับ 'uses-material-design:'
+  # '- assets/images/' ต้องเยื้องเข้ามา 2 спейс
+  assets:
+    - assets/images/
